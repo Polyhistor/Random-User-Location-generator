@@ -85148,6 +85148,7 @@ var Company =
 /** @class */
 function () {
   function Company() {
+    this.color = "red";
     this.companyName = faker_1.default.company.companyName();
     this.catchPhrase = faker_1.default.company.catchPhrase();
     this.location = {
